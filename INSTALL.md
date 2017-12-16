@@ -62,6 +62,22 @@ stack build
 Stack builds dependencies from sources, so this step can take a while first time
 (up to 20 mins).
 
+### Install `ghcid` (optional)
+
+To facilitate development and get immediate type checks for your code,
+install a lightweight `ghcid` tool:
+
+```
+stack install ghcid
+```
+
+You can now run `ghcid` and it will perform compilation
+and type-checking for you on the fly! Just run it in a separate terminal window:
+
+```
+ghcid
+```
+
 ## Setup Telegram bot
 
 To run a Telegram bot you need to create one first, by asking
