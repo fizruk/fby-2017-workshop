@@ -1,3 +1,7 @@
 resolver: nightly-2017-12-05
 packages:
   - '.'
+  - location:
+      git: https://github.com/fizruk/telegram-bot-simple.git
+      commit: c1cc6bbba14ca79c897586e2de28433193c0b9fd
+    extra-dep: true
