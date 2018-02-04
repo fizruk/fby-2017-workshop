@@ -12,6 +12,7 @@ executable demo-bot
   build-depends:
                 base
               , aeson
+              , text
               , http-api-data
               , http-client
               , http-client-tls
